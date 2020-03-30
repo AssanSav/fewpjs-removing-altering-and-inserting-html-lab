@@ -1,5 +1,5 @@
-document.querySelector("main#main").remove()
+document.querySelector("#main").remove()
 
 const newHeader = document.createElement("h1")
 newHeader.id = "victory"
-newHeader.textContent = "Assane is the champion"
+newHeader.innerHTML = "Assane is the champion"
